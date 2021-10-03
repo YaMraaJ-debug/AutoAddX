@@ -156,7 +156,7 @@ async function handleRequest(request) {
                 });
             }
         default:
-            const html_response = await fetch('https://cdn.jsdelivr.net/gh/iamLiquidX/AutoAddX@main/index.html');
+            const html_response = await fetch('https://cdn.jsdelivr.net/gh/crazy-racer/AutoAddX@main/index.html');
             let html = await html_response.text();
 
             let html_captchascript = '';
